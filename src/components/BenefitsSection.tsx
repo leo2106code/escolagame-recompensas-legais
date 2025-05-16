@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Award, BadgeDollarSign, Sponsor } from 'lucide-react';
+import { Award, BadgeDollarSign, GraduationCap } from 'lucide-react';
 
 const BenefitsSection = () => {
   const benefits = {
@@ -49,7 +49,7 @@ const BenefitsSection = () => {
           <Card className="card-hover border-2 border-muted">
             <CardHeader className="pb-2">
               <div className="mb-4 rounded-lg bg-brand-blue/10 p-2 w-12 h-12 flex items-center justify-center">
-                <School className="h-7 w-7 text-brand-blue" />
+                <GraduationCap className="h-7 w-7 text-brand-blue" />
               </div>
               <CardTitle className="text-xl">Para as Escolas</CardTitle>
             </CardHeader>
@@ -87,7 +87,7 @@ const BenefitsSection = () => {
           <Card className="card-hover border-2 border-muted">
             <CardHeader className="pb-2">
               <div className="mb-4 rounded-lg bg-brand-yellow/10 p-2 w-12 h-12 flex items-center justify-center">
-                <Sponsor className="h-7 w-7 text-brand-yellow" />
+                <BadgeDollarSign className="h-7 w-7 text-brand-yellow" />
               </div>
               <CardTitle className="text-xl">Para Patrocinadores</CardTitle>
             </CardHeader>
