@@ -6,22 +6,22 @@ const HowItWorks = () => {
     {
       number: "01",
       title: "Aluno participa",
-      description: "Alunos participam ativamente das atividades escolares e são recompensados por seu desempenho."
+      description: "Alunos participam ativamente das atividades escolares e são recompensados por seu desempenho acadêmico."
     },
     {
       number: "02",
       title: "Ganha moedas",
-      description: "Os estudantes recebem moedas digitais por presença, bom comportamento e resultados acadêmicos."
+      description: "Os estudantes recebem moedas digitais por presença, bom comportamento e resultados acadêmicos positivos."
     },
     {
       number: "03",
-      title: "Troca por prêmios",
-      description: "As moedas acumuladas podem ser trocadas por produtos, experiências e benefícios na loja da escola."
+      title: "Troca por benefícios",
+      description: "As moedas acumuladas podem ser trocadas por produtos, experiências, e acesso a recursos da escola como quadras e laboratórios."
     },
     {
       number: "04",
-      title: "Escola acompanha",
-      description: "Gestores monitoram o engajamento e desempenho através de dashboards e relatórios detalhados."
+      title: "Todos ganham",
+      description: "A escola aumenta retenção e matrículas, os pais veem o engajamento dos filhos, e os alunos são recompensados pelo esforço."
     },
   ];
 
@@ -37,7 +37,7 @@ const HowItWorks = () => {
               Como funciona a plataforma Itus
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Um sistema simples e eficaz que transforma a experiência escolar
+              Um sistema simples e eficaz que transforma a experiência escolar para todos os envolvidos
             </p>
           </div>
         </div>

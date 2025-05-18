@@ -1,29 +1,39 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { BarChart3, BookOpen, GraduationCap, LineChart } from 'lucide-react';
+import { BarChart3, BookOpen, GraduationCap, LineChart, Users, Gamepad, Computer, Basketball } from 'lucide-react';
 
 const BenefitsSection = () => {
   const benefits = [
     {
       title: "Engajamento dos alunos",
-      description: "Sistema de moedas digitais que motiva participação e incentiva o aprendizado ativo dos estudantes.",
+      description: "Sistema de moedas digitais que motiva participação e incentiva o aprendizado ativo dos estudantes, reduzindo a evasão escolar.",
       icon: <BookOpen className="h-7 w-7 text-itus-green" />
     },
     {
+      title: "Recursos da escola gamificados",
+      description: "Transforme quadras, laboratórios de informática e outros espaços em recompensas, incentivando o bom desempenho acadêmico.",
+      icon: <Basketball className="h-7 w-7 text-itus-green" />
+    },
+    {
       title: "Recompensas pedagógicas",
-      description: "Produtos, experiências e benefícios educacionais que reforçam comportamentos positivos.",
+      description: "Produtos, experiências e benefícios educacionais que reforçam comportamentos positivos e aumentam a renovação de matrículas.",
       icon: <GraduationCap className="h-7 w-7 text-itus-green" />
     },
     {
       title: "Dados e relatórios",
-      description: "Painel completo com métricas de desempenho e engajamento para gestores escolares.",
+      description: "Painel completo com métricas de desempenho e engajamento para gestores escolares acompanharem o progresso dos alunos.",
       icon: <BarChart3 className="h-7 w-7 text-itus-green" />
     },
     {
       title: "Cashback educacional",
       description: "Modelo sustentável que gera retorno financeiro para a escola através de parcerias com empresas locais.",
       icon: <LineChart className="h-7 w-7 text-itus-green" />
+    },
+    {
+      title: "Benefícios para os pais",
+      description: "Maior engajamento dos filhos com os estudos e acompanhamento do desempenho escolar de forma transparente.",
+      icon: <Users className="h-7 w-7 text-itus-green" />
     }
   ];
 
@@ -39,12 +49,12 @@ const BenefitsSection = () => {
               Por que escolher a Itus?
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Nossa plataforma oferece benefícios comprovados para toda a comunidade escolar
+              Nossa plataforma oferece benefícios comprovados para toda a comunidade escolar: instituição, professores, alunos e pais
             </p>
           </div>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
             <Card key={index} className="card-hover border-2 border-muted">
               <CardHeader className="pb-2">

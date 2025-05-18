@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/776fd82f-fe96-4179-b5be-c0553eb882be.png" 
+            src="/lovable-uploads/4d05ba9b-e150-404f-8988-83e084046ca4.png" 
             alt="Itus Logo" 
             className="h-10 w-auto"
           />

@@ -13,7 +13,7 @@ const HeroSection = () => {
                 Transforme a experiência dos seus alunos com gamificação educacional
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl/relaxed">
-                A Itus conecta diversão, aprendizado e resultados. Leve inovação para sua escola com nossa plataforma gamificada.
+                A Itus conecta diversão, aprendizado e resultados. Reduza a evasão escolar e aumente a renovação de matrículas com nossa plataforma gamificada.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -40,7 +40,7 @@ const HeroSection = () => {
                 <div className="absolute bottom-10 left-0 w-24 h-24 md:w-36 md:h-36 animate-float" style={{ animationDelay: "1s" }}>
                   <div className="absolute inset-0 rounded-full bg-itus-blue opacity-20 animate-pulse-gentle"></div>
                   <div className="absolute inset-3 rounded-full bg-itus-blue/80 flex items-center justify-center">
-                    <span className="text-3xl md:text-5xl font-bold text-white">🎮</span>
+                    <span className="text-3xl md:text-5xl font-bold text-white">🏀</span>
                   </div>
                 </div>
               </div>

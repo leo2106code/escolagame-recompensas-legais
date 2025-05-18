@@ -4,19 +4,19 @@ import React from 'react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "A plataforma Itus transformou completamente o ambiente da nossa escola. Os alunos estão mais motivados e os índices de participação aumentaram significativamente. Foi um dos melhores investimentos que fizemos.",
+      quote: "A plataforma Itus transformou completamente o ambiente da nossa escola. Os alunos estão mais motivados e os índices de renovação de matrículas aumentaram significativamente. Foi um dos melhores investimentos que fizemos.",
       author: "Maria Silva",
       role: "Diretora Pedagógica",
       school: "Colégio Inovação"
     },
     {
-      quote: "Implementamos a solução da Itus há 6 meses e já percebemos uma melhora impressionante no engajamento dos alunos. O sistema de recompensas é intuitivo e a equipe de suporte está sempre disponível para ajudar.",
+      quote: "Implementamos a solução da Itus há 6 meses e já percebemos uma melhora impressionante no engajamento dos alunos. A gamificação dos recursos da escola foi um sucesso total entre professores e estudantes.",
       author: "Carlos Mendes",
       role: "Coordenador Pedagógico",
       school: "Escola Municipal Dr. Paulo Freire"
     },
     {
-      quote: "O que mais me impressionou foi a facilidade de implementação e o retorno rápido. Os alunos adoram o sistema de moedas e os pais elogiam a iniciativa. Recomendo para todas as escolas.",
+      quote: "O que mais me impressionou foi como os pais passaram a acompanhar mais o desempenho dos filhos. A evasão escolar diminuiu e os alunos estão mais interessados em aprender para ganhar acesso às atividades extras.",
       author: "Ana Beatriz",
       role: "Gestora Escolar",
       school: "Centro Educacional Futuro"
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
               O que dizem sobre nós
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Veja a opinião de gestores escolares que já implementaram nossa solução
+              Veja a opinião de gestores escolares que já implementaram nossa solução e colhem os benefícios
             </p>
           </div>
         </div>
