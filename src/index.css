@@ -102,7 +102,7 @@
 
 @layer components {
   .hero-gradient {
-    @apply bg-gradient-to-br from-brand-blue via-brand-blue/90 to-brand-purple/80 text-white;
+    @apply bg-gradient-to-br from-itus-blue via-itus-blue to-itus-green/20 text-white;
   }
   
   .card-hover {
@@ -110,14 +110,14 @@
   }
   
   .btn-primary {
-    @apply bg-brand-blue hover:bg-brand-blue/90 text-white rounded-lg px-6 py-3 font-medium transition-all;
+    @apply bg-itus-green hover:bg-itus-green/90 text-white rounded-lg px-6 py-3 font-medium transition-all;
   }
   
   .btn-secondary {
-    @apply bg-brand-green hover:bg-brand-green/90 text-white rounded-lg px-6 py-3 font-medium transition-all;
+    @apply bg-itus-blue hover:bg-itus-blue/90 text-white rounded-lg px-6 py-3 font-medium transition-all;
   }
   
   .badge {
-    @apply inline-flex items-center rounded-full bg-brand-yellow/20 px-2.5 py-0.5 text-xs font-medium text-brand-yellow/80;
+    @apply inline-flex items-center rounded-full bg-itus-green/20 px-2.5 py-0.5 text-xs font-medium text-itus-green;
   }
 }

@@ -63,11 +63,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				brand: {
-					blue: '#2563EB',
-					green: '#10B981',
-					yellow: '#FBBF24',
-					purple: '#8B5CF6'
+				itus: {
+					blue: '#1c2747',
+					green: '#259938',
+					'light-blue': '#e6f7ff'
 				}
 			},
 			borderRadius: {
@@ -114,6 +113,7 @@ export default {
 			backgroundImage: {
 				'hero-pattern': "url('/hero-bg.svg')",
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'itus-gradient': 'linear-gradient(90deg, #1c2747 0%, #1e3a4f 50%, #259938 100%)'
 			}
 		}
 	},

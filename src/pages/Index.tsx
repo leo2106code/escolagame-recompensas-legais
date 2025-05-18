@@ -2,11 +2,10 @@
 import React from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
-import FeaturesSection from '@/components/FeaturesSection';
-import HowItWorks from '@/components/HowItWorks';
 import BenefitsSection from '@/components/BenefitsSection';
-import PatronSection from '@/components/PatronSection';
+import HowItWorks from '@/components/HowItWorks';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import FaqSection from '@/components/FaqSection';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
 
@@ -16,11 +15,10 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <FeaturesSection />
-        <HowItWorks />
         <BenefitsSection />
-        <PatronSection />
+        <HowItWorks />
         <TestimonialsSection />
+        <FaqSection />
         <CallToAction />
       </main>
       <Footer />
