@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { BarChart3, BookOpen, GraduationCap, LineChart, Users, Gamepad, Computer, Basketball } from 'lucide-react';
+import { BarChart3, BookOpen, GraduationCap, LineChart, Users, Gamepad, Computer } from 'lucide-react';
 
 const BenefitsSection = () => {
   const benefits = [
@@ -13,7 +13,7 @@ const BenefitsSection = () => {
     {
       title: "Recursos da escola gamificados",
       description: "Transforme quadras, laboratórios de informática e outros espaços em recompensas, incentivando o bom desempenho acadêmico.",
-      icon: <Basketball className="h-7 w-7 text-itus-green" />
+      icon: <Computer className="h-7 w-7 text-itus-green" />
     },
     {
       title: "Recompensas pedagógicas",
